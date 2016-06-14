@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/android_os"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android OS: "/>
+
+    <TextView
+        android:id="@+id/device_uptime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Up-time: "/>
+
+    <TextView
+        android:id="@+id/device_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Model: "/>
+
+    <TextView
+        android:id="@+id/network_ssid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Network SSID: "/>
+
+    <TextView
+        android:id="@+id/ip_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP Address: "/>
+
+    <TextView
+        android:id="@+id/memory_available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Memory: "/>
+
+    <TextView
+        android:id="@+id/memory_used"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memory Used: "/>
+
+    <TextView
+        android:id="@+id/storage_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Storage: "/>
+
+    <TextView
+        android:id="@+id/storage_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage Available: "/>
+</LinearLayout>
